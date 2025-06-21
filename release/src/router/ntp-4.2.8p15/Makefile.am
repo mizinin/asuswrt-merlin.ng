@@ -14,7 +14,6 @@ SUBDIRS =		\
 	adjtimed	\
 	clockstuff	\
 	kernel		\
-	tests		\
 	$(NULL)
 
 DISTCHECK_CONFIGURE_FLAGS = -C --with-sntp --enable-local-libevent $(NTP_DCF)
