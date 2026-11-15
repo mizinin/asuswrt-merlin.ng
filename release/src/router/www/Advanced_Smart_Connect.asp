@@ -1042,7 +1042,7 @@ function register_event(){
 				based_modelid == "TUF-AX5400_V2" ||
 				based_modelid == "RT-AX5400" ||
 				based_modelid == "DSL-AX82U" ||
-				based_modelid == "RT-AX82U" ||
+				based_modelid == "RT-AX82U" || based_modelid == "RT-AX82_XD6" ||
 				based_modelid == "RT-AX82U_V2" ||
 				based_modelid == "RT-AX56U" || 
 				based_modelid == "RT-AX86U" || based_modelid == "RT-AX68U" || based_modelid == "RT-AC68U_V4" ||
@@ -1099,7 +1099,7 @@ function register_event(){
 				based_modelid == "TUF-AX5400_V2" ||
 				based_modelid == "RT-AX5400" ||
 				based_modelid == "DSL-AX82U" ||
-				based_modelid == "RT-AX82U" ||
+				based_modelid == "RT-AX82U" || based_modelid == "RT-AX82_XD6" ||
 				based_modelid == "RT-AX82U_V2" ||
 				based_modelid == "RT-AX56U" ||
 				based_modelid == "GS-AX3000" || based_modelid == "GS-AX5400" ||
@@ -1156,7 +1156,7 @@ function register_event(){
 				based_modelid == "TUF-AX5400_V2" ||
 				based_modelid == "RT-AX5400" ||
 				based_modelid == "DSL-AX82U" ||
-				based_modelid == "RT-AX82U" ||
+				based_modelid == "RT-AX82U" || based_modelid == "RT-AX82_XD6" ||
 				based_modelid == "RT-AX82U_V2" ||
 				based_modelid == "RT-AX56U"	||
 				based_modelid == "GS-AX3000" || based_modelid == "GS-AX5400" ||
@@ -1213,7 +1213,7 @@ function register_event(){
 				based_modelid == "TUF-AX5400_V2" ||
 				based_modelid == "RT-AX5400" ||
 				based_modelid == "DSL-AX82U" ||
-				based_modelid == "RT-AX82U" ||
+				based_modelid == "RT-AX82U" || based_modelid == "RT-AX82_XD6" ||
 				based_modelid == "RT-AX82U_V2" ||
 				based_modelid == "RT-AX56U"	||
 				based_modelid == "GS-AX3000" || based_modelid == "GS-AX5400" ||
@@ -1328,7 +1328,7 @@ function register_event(){
 				based_modelid == "TUF-AX5400_V2" ||
 				based_modelid == "RT-AX5400" ||
 				based_modelid == "DSL-AX82U" ||
-				based_modelid == "RT-AX82U" ||
+				based_modelid == "RT-AX82U" || based_modelid == "RT-AX82_XD6" ||
 				based_modelid == "RT-AX82U_V2" ||
 				based_modelid == "RT-AX56U"	||
 				based_modelid == "GS-AX3000" || based_modelid == "GS-AX5400" ||
@@ -1385,7 +1385,7 @@ function register_event(){
 				based_modelid == "TUF-AX5400_V2" ||
 				based_modelid == "RT-AX5400" ||
 				based_modelid == "DSL-AX82U" ||
-				based_modelid == "RT-AX82U" ||
+				based_modelid == "RT-AX82U" || based_modelid == "RT-AX82_XD6" ||
 				based_modelid == "RT-AX82U_V2" ||
 				based_modelid == "RT-AX56U"	||
 				based_modelid == "GS-AX3000" || based_modelid == "GS-AX5400" ||
@@ -1442,7 +1442,7 @@ function register_event(){
 				based_modelid == "TUF-AX5400_V2" ||
 				based_modelid == "RT-AX5400" ||
 				based_modelid == "DSL-AX82U" ||
-				based_modelid == "RT-AX82U" ||
+				based_modelid == "RT-AX82U" || based_modelid == "RT-AX82_XD6" ||
 				based_modelid == "RT-AX82U_V2" ||
 				based_modelid == "RT-AX56U"	||
 				based_modelid == "GS-AX3000" || based_modelid == "GS-AX5400" ||
@@ -1499,7 +1499,7 @@ function register_event(){
 				based_modelid == "TUF-AX5400_V2" ||
 				based_modelid == "RT-AX5400" ||
 				based_modelid == "DSL-AX82U" ||
-				based_modelid == "RT-AX82U" ||
+				based_modelid == "RT-AX82U" || based_modelid == "RT-AX82_XD6" ||
 				based_modelid == "RT-AX82U_V2" ||
 				based_modelid == "RT-AX56U"	||
 				based_modelid == "GS-AX3000" || based_modelid == "GS-AX5400" ||
@@ -1667,7 +1667,7 @@ function check_power(power_value,flag){
 			based_modelid == "TUF-AX5400_V2" ||
 			based_modelid == "RT-AX5400" ||
 			based_modelid == "DSL-AX82U" ||
-			based_modelid == "RT-AX82U" ||
+			based_modelid == "RT-AX82U" || based_modelid == "RT-AX82_XD6" ||
 			based_modelid == "RT-AX82U_V2" ||
 			based_modelid == "RT-AX56U"	||
 			based_modelid == "GS-AX3000" || based_modelid == "GS-AX5400" ||
@@ -1733,7 +1733,7 @@ function set_lg_power(power_value,flag,idx){
 			based_modelid == "TUF-AX5400_V2" ||
 			based_modelid == "RT-AX5400" ||
 			based_modelid == "DSL-AX82U" ||
-			based_modelid == "RT-AX82U" ||
+			based_modelid == "RT-AX82U" || based_modelid == "RT-AX82_XD6" ||
 			based_modelid == "RT-AX82U_V2" ||
 			based_modelid == "RT-AX56U"	||
 			based_modelid == "GS-AX3000" || based_modelid == "GS-AX5400" ||
@@ -1782,7 +1782,7 @@ function set_lg_power(power_value,flag,idx){
 			based_modelid == "TUF-AX5400_V2" ||
 			based_modelid == "RT-AX5400" ||
 			based_modelid == "DSL-AX82U" ||
-			based_modelid == "RT-AX82U" ||
+			based_modelid == "RT-AX82U" || based_modelid == "RT-AX82_XD6" ||
 			based_modelid == "RT-AX82U_V2" ||
 			based_modelid == "RT-AX56U"	||
 			based_modelid == "GS-AX3000" || based_modelid == "GS-AX5400" ||
