@@ -3347,6 +3347,11 @@ rc: shared libev-4.33 $(if $(BCM_502L07P2),ethctl_lib) nvram$(BCMEX)$(EX7) libdi
 # Dig into our collection of prebuilt objects based on model
 	@-rm -f rc/prebuild/*.o || true
 	@-cp -f rc/prebuild/$(BUILD_NAME)/* rc/prebuild/
+ifeq ($(BUILD_NAME),RT-AX82_XD6)
+# XT8 tcode_brcm.o forces tri-band 5 GHz splitting (1:dis_ch_grp=0x18, 2:dis_ch_grp=0x7);
+# XD6 is dual-band like RT-AX82U, so use its territory/regulatory helpers instead
+	cp -f rc/prebuild/RT-AX82U/tcode_brcm.o rc/prebuild/tcode_brcm.o
+endif
 	@$(MAKE) -C rc $(PARALLEL_BUILD)
 
 rc-install:
