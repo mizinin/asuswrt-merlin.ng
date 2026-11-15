@@ -3921,6 +3921,10 @@ shared: $(if $(RTCONFIG_QTN),libqcsapi_client) $(if $(RTCONFIG_HTTPS),openssl) $
 # Dig into our collection of prebuilt objects based on model.
 	@-rm -f shared/prebuild/*.o || true
 	@-cp -f shared/prebuild/$(BUILD_NAME)/* shared/prebuild/
+ifeq ($(BUILD_NAME),RT-AX82_XD6)
+# XD6 reuses the RT-AX95Q objects: remap the hardcoded CLED channels of the RGB LED
+	perl shared/prebuild/patch-xd6-cled.pl shared/prebuild/api-broadcom.o
+endif
 ifeq ($(RTCONFIG_RALINK)$(RTCONFIG_QCA)$(RTCONFIG_ALPINE)$(RTCONFIG_LANTIQ),y)
 	make -C wireless_tools wireless.h
 endif
